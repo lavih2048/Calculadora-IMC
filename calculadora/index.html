@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/imgs/estetoscopio.png">
+    <link rel="stylesheet" href="estilo.css">
+    <title>IMC - O que é e como calcular?</title>
+</head>
+
+<body>
+        <section>
+            <div id="text">
+                <h1 id="title1">O que é o IMC? </h1>
+                <br>
+                <p>O IMC é o Índice de Massa Corporal e tem o objetivo de definir qual é o peso ideal para cada indivíduo. Ele é
+                    calculado de uma forma bastante simples e, de acordo com a estatura da pessoa, chega-se ao resultado final.
+                    Com base na relação entre a sua altura e o seu peso, é possível descobrir se você está acima do peso, abaixo
+                    ou dentro da média ideal para seu corpo. O método é reconhecido pela Organização Mundial da Saúde (OMS).</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <h2 id="title1">Como calcular o IMC?</h2>
+        <br>
+        <img class="img1" src="/imgs/calcular-IMC.png" alt="calculo">
+        <br>
+        <br>
+        <h2 id="title1">Calcule seu IMC:</h2>
+        <br>
+  <main id="container">      
+        <section id="img">
+            <img src="imgs/_104620698_prmo_imc_br-nc.png" alt="img" class="img" style="justify-items:center;" width="460px">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h2 id="title">
+                    Calculadora - IMC
+                </h2>
+
+                <div class="input-box">
+                    <label for="weight">
+                        Peso em Kg
+                    </label>
+                    <div class="input-field">
+                        <input type="number" id="weight" step="any" required>
+                        <span>
+                            kg
+                        </span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="height">
+                        Altura em metros
+                    </label>
+                    <div class="input-field">
+                        <input type="number" id="height" step="any" required>
+                        <span>
+                            m
+                        </span>
+                    </div>
+                </div>
+                <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+        Para saber mais, acesse:  <a href="https://www.tuasaude.com/imc/" target="_blank"><img src="imgs/mundo.png" alt="link" height="20px" ></a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
